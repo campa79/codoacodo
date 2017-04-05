@@ -3,8 +3,8 @@
 //	Plan 2: 50% al contado y el resto en 2 cuotas iguales. El precio publicado se incrementa en un 10%.
 //	Plan 3: 25% al contado y el resto en 5 cuotas iguales. El precio publicado se incrementa en un 15%.
 //	Plan 4: Totalmente financiado en 8 cuotas. El 60% se reparte en partes iguales en las primeras 4 cuotas 
-// 			y el resto se reparte en partes iguales en las últimas 4 cuotas. El precio publicado se incrementa en un 25%.
-//			Dado el precio de un artículo, la computadora muestra los valores a pagar según cada plan.
+// 	y el resto se reparte en partes iguales en las últimas 4 cuotas. El precio publicado se incrementa en un 25%.
+//	Dado el precio de un artículo, la computadora muestra los valores a pagar según cada plan.
 
 Algoritmo planesDePago
 	definir precio Como Entero;
