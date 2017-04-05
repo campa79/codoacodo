@@ -1,0 +1,68 @@
+// Escriba un programa que simule una calculadora básica que realice operaciones de suma, resta, multiplicación y división. 
+// El programa debe recibir como entrada dos números reales y un operador, que puede ser +, -, * o /. La salida del programa 
+// debe ser el resultado de la operación.
+// Ejercicio 20 Guía Ejercicios - Codo a Codo / 111 Mil
+// Hecho por Alberto Campagna - campa99@gmail.com
+
+Algoritmo calculadora
+	definir numero1 como real;
+	definir numero2 como real;
+	definir resultado como real;
+	definir opcionMenu como entero;
+	
+	Mientras opcionMenu Es Distinto De 5 Hacer
+		Escribir "--------------------";
+		Escribir "-CALCULADORA BASICA-";
+		Escribir "--------------------";
+		Escribir "";
+		Escribir "1. SUMAR";
+		Escribir "2. RESTAR";
+		Escribir "3. MULTIPLICAR";
+		Escribir "4. DIVIDIR";
+		Escribir "5. SALIR";
+		
+		leer opcionMenu;
+		Segun opcionMenu Hacer
+			1:
+				Escribir "SUMAR";
+				Escribir "Ingrese el primer número:";
+				Leer numero1;
+				Escribir "Ingrese el segundo número:";
+				Leer numero2;
+				Escribir numero1 ," + ", numero2 ," es ", numero1 + numero2,;
+				Escribir "Pulse una tecla para volver al Menú";
+				Esperar Tecla;
+				Limpiar Pantalla;
+			2:
+				Escribir "RESTAR";
+				Escribir "Ingrese el primer número:";
+				Leer numero1;
+				Escribir "Ingrese el segundo número:";
+				Leer numero2;
+				Escribir numero1 ," - ", numero2 ," es ", numero1 - numero2,;
+				Escribir "Pulse una tecla para volver al menú Principal";
+				Esperar Tecla;
+				Limpiar Pantalla;
+			3:
+				Escribir "MULTIPLICAR";
+				Escribir "Ingrese el primer número:";
+				Leer numero1;
+				Escribir "Ingrese el segundo número:";
+				Leer numero2;
+				Escribir numero1 ," * ", numero2 ," es ", numero1 * numero2,;
+				Escribir "Pulse una tecla para volver al menú principal";
+				Esperar Tecla;
+				Limpiar Pantalla;
+			4:
+				Escribir "DIVIDIR";
+				Escribir "Ingrese el primer número:";
+				Leer numero1;
+				Escribir "Ingrese el segundo número:";
+				Leer numero2;
+				Escribir numero1 ," / ", numero2 ," es ", numero1 / numero2,;
+				Escribir "Pulse una tecla para volver al menú principal";
+				Esperar Tecla;
+				Limpiar Pantalla;
+		Fin Segun
+	Fin Mientras
+FinAlgoritmo
