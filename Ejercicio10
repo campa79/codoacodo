@@ -1,0 +1,31 @@
+// Una casa de artículos para el hogar ofrece a sus clientes los siguientes planes de pago:
+//	Plan 1: 100% al contado. Se hace el 10% de descuento sobre el precio publicado.
+//	Plan 2: 50% al contado y el resto en 2 cuotas iguales. El precio publicado se incrementa en un 10%.
+//	Plan 3: 25% al contado y el resto en 5 cuotas iguales. El precio publicado se incrementa en un 15%.
+//	Plan 4: Totalmente financiado en 8 cuotas. El 60% se reparte en partes iguales en las primeras 4 cuotas 
+// 			y el resto se reparte en partes iguales en las últimas 4 cuotas. El precio publicado se incrementa en un 25%.
+//			Dado el precio de un artículo, la computadora muestra los valores a pagar según cada plan.
+
+Algoritmo planesDePago
+	definir precio Como Entero;
+
+	Escribir "Ingrese el valor del artículo:";
+	Leer precio;
+	
+	Escribir "PRECIO FINAL SEGUN EL PLAN ELEGIDO:";
+	Escribir "";
+	Escribir "Plan 1 (100% Contado 10% Descuento) / PRECIO FINAL $", (precio * 0.9);
+	Escribir "";
+	
+	Escribir "Plan 2 (50% Contado y 2 cuotas - 10% de Recargo) / PRECIO FINAL $", precio * 1.1;
+	Escribir "50% Contado de $", (precio / 2) * 1.1 ," y 2 cuotas de $", (precio / 4)* 1.1;
+	Escribir "";
+	
+	Escribir "Plan 3 (25% Contado y 5 cuotas - 15% de Recargo) / PRECIO FINAL $", precio * 1.15;
+	Escribir "25% Contado de $", (precio / 4) * 1.15 ," y 5 cuotas de $", (precio * 0.75) / 5 * 1.15;
+	Escribir "";
+	
+	Escribir "Plan 4 (8 Cuotas - 60% y 40% 4/4 - 25% de Recargo) / PRECIO FINAL $", precio * 1.25;
+	Escribir "4 cuotas de $", (precio * 0.6) / 4 * 1.25, " y 4 cuotas de $", (precio * 0.4) / 4 * 1.25;
+	Escribir "";
+FinAlgoritmo
