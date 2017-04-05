@@ -5,6 +5,8 @@
 //	Plan 4: Totalmente financiado en 8 cuotas. El 60% se reparte en partes iguales en las primeras 4 cuotas 
 // 	y el resto se reparte en partes iguales en las últimas 4 cuotas. El precio publicado se incrementa en un 25%.
 //	Dado el precio de un artículo, la computadora muestra los valores a pagar según cada plan.
+//	Ejercicio 10 Pseudocódigo 111 Mil - Codo a Codo
+//	Hecho por Alberto Campagna - campa99@gmail.com
 
 Algoritmo planesDePago
 	definir precio Como Entero;
