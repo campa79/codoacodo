@@ -4,10 +4,11 @@ import java.io.*;
 
 public class circunferencia {
 
-	/* Dados el valor del radio de una circunferencia cuyo centro est·
+	/* Dados el valor del radio de una circunferencia cuyo centro est√°
 	ubicado en (0;0) y dadas las coordenadas (x;y) de un punto, la
 	computadora informa si el punto pertenece a la circunferencia.   
-	Alberto Campagna - Ejercicio 15 Guia Pr·ctica Codo a codo */
+	Alberto Campagna - Ejercicio 15 Guia Pr√°ctica Codo a codo 
+	HAY QUE CORREGIRLO... FALTAN COSAS. */
 
 	public static void main(String args[]) throws IOException {
 
@@ -28,9 +29,9 @@ public class circunferencia {
 		valory = Double.parseDouble(bufEntrada.readLine());
 		
 		if (valorx <= radio && valory <= radio && valorx >= radionegativo && valory >= radionegativo) {
-			System.out.println("Se encuentra dentro del cÌrculo");
+			System.out.println("Se encuentra dentro del c√≠rculo");
 		} else {
-			System.out.println("Se encuentra fuera del cÌrculo.");
+			System.out.println("Se encuentra fuera del c√≠rculo.");
 		}
 	}
 }
